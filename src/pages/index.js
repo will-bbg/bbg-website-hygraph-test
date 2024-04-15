@@ -54,7 +54,7 @@ function Homepage({ blogPosts }) {
                       fill
                       className={Style.imgfluid}
                     />
-                  </link>
+                  </Link>
                 </div>
                 <div className={Style.container}>
                   <Link href={blogPosts.slug}>
