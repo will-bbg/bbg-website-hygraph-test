@@ -47,12 +47,14 @@ function Homepage({ blogPosts }) {
             <div  key={blogPosts.id}>
               <div className={Style.inside}>
                 <div className={Style.img}>
-                  <Image
-                    src={blogPosts.coverPhoto.url}
-                    alt={blogPosts.coverPhoto.imageAlt}
-                    fill
-                    className={Style.imgfluid}
-                  />
+                  <Link href={blogPosts.slug}>
+                    <Image
+                      src={blogPosts.coverPhoto.url}
+                      alt={blogPosts.coverPhoto.imageAlt}
+                      fill
+                      className={Style.imgfluid}
+                    />
+                  </link>
                 </div>
                 <div className={Style.container}>
                   <Link href={blogPosts.slug}>
