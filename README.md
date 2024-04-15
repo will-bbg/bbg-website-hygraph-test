@@ -4,7 +4,7 @@ This is a one column basic blog built with Hygraph cms.
 
 ## Demo
 
-[Here's a live preview of the app](https://nextblogs.vercel.app/)
+[Here's a live preview of the app](https://bbg-website-hygraph-test.vercel.app/)
 
 ## Technologies
 
@@ -34,26 +34,14 @@ This is a one column basic blog built with Hygraph cms.
 
 3. Create `.env.local` in root folder.
 
-1. Get API endpoint from [Hygraph](https://hygraph.com/)
+4. Get API endpoint from [Hygraph](https://hygraph.com/)
 
-5. Enter endpoint in `.env.local` file
-
-        ENDPOINT='enter your hygraph content endpoint'
-
-6. Start development Server
+5. Start development Server
 
         npm run dev
 
 ## Development
 
-[Read a tutorial on how I built this app](https://dev.to/amissah17/how-to-build-a-nextjs-blog-with-hygraph-and-deploy-to-vercel-in-2023-1ahd)
-
 ## Licence
 
 Distributed under the [MIT License](LICENSE)
-
-## Contact
-
-Frank Amissah -[Twitter](https://twitter.com/amotabil8)
-
-Project Link: [GitHub](https://github.com/amissah17/nextblog)
